@@ -1,0 +1,123 @@
+* {
+ margin: 0px;   
+}
+
+
+body {
+    background-image: url(/assets/img/cb01ec87c989b0df2c2f8deb59a0b3f5.jpg);
+    margin: 1rem;
+}
+
+main {
+    background-color: #d9c1c18f;
+}
+
+
+img {
+    display: flex;
+    width: 380px;
+    margin: -1.3rem 0rem -1rem -0.7rem;
+}
+nav.sidebar ul { 
+    list-style: none;
+    margin: 3rem 1rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    white-space: pre-line;
+    padding-inline-start: 0px;
+}
+
+nav.sidebar li {
+    margin-bottom: 1rem;
+    margin-inline-end: 0.5rem;
+}
+
+nav a {
+    padding: 0.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: solid;
+    border-color: red;
+    border-radius: 1rem;
+    font-size: 16px;
+}
+
+nav a:hover {
+    background-color: yellow;
+    opacity: 80%;
+}
+
+h1, h2 {
+    color: #c51b1b;
+    margin: 1rem 1rem 2rem;
+    font-family: math;
+    text-align-last: center;
+    -webkit-text-stroke: 1px #d0d314;
+    font-size: 30px;
+}
+
+p {
+    font-family: cursive;
+    font-size: 13px;
+    text-align: justify;
+    text-indent: 1.25rem;
+    margin: 1rem;
+}    
+
+.characters {
+    margin: 1rem;
+}
+
+.characters summary{
+    font-size: 20px;
+    font-style: italic;
+}
+
+footer img {
+    margin: 0.3rem 0rem 0rem -0.7rem;
+    width: 383px;
+    opacity: 59%;
+    background-color: #45aebe;
+}
+
+@media screen and (min-width: 400px) and (max-width: 999px){
+    img {
+    width: -webkit-fill-available;
+    }
+
+    footer img {
+        width: -webkit-fill-available;
+        height: 300px;
+        margin-top: 2rem;
+    }
+}    
+
+@media screen and (min-width: 640px){
+    nav.sidebar ul {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+@media screen and (min-width: 1000px){
+    img {
+        width: 1052px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+    }
+
+    nav.sidebar a {
+        font-size: calc(16px + 20%);
+    }
+
+
+    footer img {
+        width: 1217px;
+        height: 302px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+    }
+}    
